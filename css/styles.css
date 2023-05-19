@@ -16,13 +16,42 @@ body {
     background-color: var(--backgrond-color-light)
 }
 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+
+ul, 
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+}
+
 .link {
     text-decoration: none;
     color: var(--title-background-color-dark);
 }
 
-.no-title {
-    visibility: hidden
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .btn {
@@ -54,16 +83,13 @@ body {
     color: var(--backgrond-color-light)
 }
 
-.list {
-    list-style: none;
-}
-
 .subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-background-color-dark)
+    color: var(--title-background-color-dark);
+    margin-bottom: 8px;
 }
 
 .text-down {
@@ -73,7 +99,29 @@ body {
     color:var(--text-color)
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: ;
+}
 /**--header--**/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--color-accent)
+}
+
 
 .logo-link {
     font-family: var(--font-text-link);
@@ -118,6 +166,8 @@ body {
 /**--hero--**/
 .hero {
     background-color:var(--title-background-color-dark);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-text {
@@ -126,6 +176,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--backgrond-color-light);
+    margin-bottom: 48px;
 }
 
 .big-title {
@@ -135,10 +186,33 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-background-color-dark);
+    margin-bottom: 72px;
+}
+
+/**--features--**/
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-title {
+
+}
+
+/**--doing--**/
+
+.doing {
+    padding-bottom: 120px;
+}
+
+.doing-title {
 }
 
 .team {
     background-color: var(--background-color-team);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-item {
@@ -149,7 +223,9 @@ body {
 
 .footer {
     background-color: var(--title-background-color-dark);
-    color: var(--background-color-team)
+    color: var(--background-color-team);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo-studio {
@@ -160,6 +236,17 @@ body {
     font-size: 16px;
     line-height: 1.5;   
     letter-spacing: 0.02em;
+}
+
+/**--portfolio--**/
+
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-filters-list {
+    margin-bottom: 72px;
 }
 
 .portfolio-list {}
