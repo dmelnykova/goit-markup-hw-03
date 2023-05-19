@@ -64,16 +64,6 @@ ol {
     border-radius: 4px;
 }
 
-.hero-btn {
-    min-width: 169px;
-    height: 56px;
-    color: var(--backgrond-color-light);
-    background-color: var(--primary-brand-color);
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 188px;
-}
-
 .hero-btn:hover, .hero-btn:focus, .portfolio-filters-btn:hover, .portfolio-filters-btn:focus {
     background-color: var(--pressed-state-color);
 }
@@ -188,10 +178,7 @@ img {
 /**--hero--**/
 .hero {
     background-color:var(--title-background-color-dark);
-   
-}
-
-.hero-container {
+    padding-bottom: 188px;
 }
 
 .hero-text {
@@ -199,12 +186,47 @@ img {
     font-size: 56px;
     line-height: 1.07;
     margin: 0 auto;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--backgrond-color-light);
     padding-top: 188px;
     margin-bottom: 48px;
     
 }
+
+.hero-btn {
+    min-width: 169px;
+    height: 56px;
+    color: var(--backgrond-color-light);
+    background-color: var(--primary-brand-color);
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);    align-items: center;
+    padding: 16px 32px;
+    border: 0;
+}
+
+
+
+/**--features--**/
+
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.features-container, .features-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.features-text {
+    max-width: 264px;
+}
+
+
+/**--doing--**/
 
 .big-title {
     font-size: 36px;
@@ -215,19 +237,6 @@ img {
     color: var(--title-background-color-dark);
     margin-bottom: 72px;
 }
-
-/**--features--**/
-
-.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.features-title {
-
-}
-
-/**--doing--**/
 
 .doing {
     padding-bottom: 120px;
