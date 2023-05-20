@@ -145,6 +145,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+}
+
+.header-logo {
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -320,7 +323,7 @@ img {
 }
 
 .footer-container {
-    display: inline-block;
+    
 }
 
 .footer-logo-studio {
@@ -329,6 +332,7 @@ img {
 
 .footer-link {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
@@ -336,7 +340,6 @@ img {
     font-size: 16px;
     line-height: 1.5;   
     letter-spacing: 0.02em;
-    margin-top: 16px;
 }
 
 /**--portfolio--**/
