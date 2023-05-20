@@ -72,6 +72,8 @@ ol {
     text-align: center;
     color: var(--primary-brand-color);
     background: var(--background-color-team);
+    padding: 12px 24px;
+    border: 1px solid var(--color-accent)
 }
 
 .portfolio-filters-btn:hover,
@@ -111,8 +113,6 @@ img {
 /**--header--**/
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid var(--color-accent)
 }
 
@@ -127,6 +127,8 @@ img {
 
 .header-list, .header-address-list {
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address {
@@ -142,6 +144,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .logo-web {
@@ -158,6 +162,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-background-color-dark);
+}
+
+.header-link, .header-address-link {
+  
 }
 
 .header-address-link {
@@ -323,11 +331,33 @@ padding-bottom: 32px;
     padding-bottom: 120px;
 }
 
-.portfolio-filters-list {
-    margin-bottom: 72px;
+.portfolio-btn-container {
+   
 }
 
-.portfolio-list {}
+.portfolio-filters-list {
+    min-width: 586px;
+    margin-bottom: 72px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+}
+
+.portfolio-filters-item {}
+
+.portfolio-card {
+    
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: calc((100% - 48px) / 3)
+
+    
+}
 
 .portfolio-item {
     background-color: var(--backgrond-color-light);
