@@ -88,13 +88,15 @@ ol {
     letter-spacing: 0.02em;
     color: var(--title-background-color-dark);
     margin-bottom: 8px;
+    padding-top: 32px;
 }
 
 .text-down {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color)
+    color:var(--text-color);
+    padding-bottom: 32px;
 }
 
 img {
@@ -201,7 +203,6 @@ img {
 
 .hero-btn {
     min-width: 169px;
-    height: 56px;
     color: var(--backgrond-color-light);
     background-color: var(--primary-brand-color);
     display: block;
@@ -216,16 +217,20 @@ img {
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
+    
+    
 }
 
 .features-container, .features-list {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    gap: 24px;
+    width: calc ((100%-72px)/4);
 }
 
 .features-text {
-    max-width: 264px;
+    
 }
 
 /**--doing--**/
@@ -283,6 +288,7 @@ img {
     background-color: var(--backgrond-color-light);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .team-item-subtitle, .team-item-text {
@@ -294,11 +300,11 @@ img {
 }
 
 .team-item-subtitle {
-    padding-top: 32px;
+    
 }
 
 .team-item-text {
-padding-bottom: 32px;
+
 }
 
 
@@ -347,24 +353,26 @@ padding-bottom: 32px;
 .portfolio-filters-item {}
 
 .portfolio-card {
-    
+    border-right: 1px solid var(--color-accent);
+    border-bottom: 1px solid var(--color-accent);
+    border-left: 1px solid var(--color-accent);
+    padding-left: 16px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    flex-basis: calc((100% - 48px) / 3)
-
-    
 }
 
 .portfolio-item {
     background-color: var(--backgrond-color-light);
     margin-bottom: 48px;
-    border-right: 1px solid var(--color-accent);
-    border-bottom: 1px solid var(--color-accent);
-    border-left: 1px solid var(--color-accent);
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item-subtitle,
+.portfolio-item-text {
 
 }
 
