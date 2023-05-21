@@ -127,7 +127,12 @@ img {
     align-items: center;
 }
 
-.header-list, .header-address-list {
+.header-list {
+    gap: 40px;
+    padding: 24px 0
+}
+
+.header-address-list {
     gap: 40px;
     padding: 24px 0
 }
@@ -160,6 +165,9 @@ img {
     color: var(--title-background-color-dark);
 }
 
+.header-link {
+}
+
 .header-item {
     font-weight: 500;
     font-size: 16px;
@@ -170,7 +178,6 @@ img {
 
 .header-link, .header-address-link {
     display: block;
-
 }
 
 .header-address-link {
