@@ -133,12 +133,10 @@ img {
 
 .header-list {
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-address-list {
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-address {
@@ -179,6 +177,7 @@ img {
 
 .header-link {
     display: block;
+    padding: 24px 0;
 }
 
 .header-address-link {
@@ -187,6 +186,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color);
     display: block;
+    padding: 24px 0;
 }
 
 .header-link:hover, .header-link:focus, .header-address-link:hover,
