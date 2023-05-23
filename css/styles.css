@@ -391,7 +391,6 @@ img {
 
 .portfolio-item {
     background-color: var(--backgrond-color-light);
-    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 }
 
